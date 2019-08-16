@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:background="@drawable/costum_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textNim"
+            android:text="nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_id"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textNama"
+            android:text="nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_person"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textKelas"
+            android:text="kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_kelas"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textTelepon"
+            android:text="telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_phone"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textEmail"
+            android:text="email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_email"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/textInstagram"
+            android:text="instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:drawableLeft="@drawable/icon_insta"
+            android:textSize="18sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="12"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/button_edit"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@drawable/costum_bg"
+                android:text="edit"/>
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@drawable/costum_bg"
+                android:text="delete"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
